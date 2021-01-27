@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Руслан Романенко](https://up.htmlacademy.ru/javascript/22/user/1416651).
-* Наставник: `Неизвестно`.
+* Наставник: [RAMAN LAURYNIUK](https://htmlacademy.ru/profile/id1666565).
 
 ---
 
