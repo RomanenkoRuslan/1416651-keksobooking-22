@@ -34,7 +34,7 @@ const getRandomItemNoRepeat = function (arr) {
     arr[i] = city;
   }
 
-  let sumElements = getRandomInRange(0, arr.length - 1);
+  const sumElements = getRandomInRange(0, arr.length - 1);
 
   return arr.slice(sumElements)
 }
