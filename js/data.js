@@ -2,7 +2,6 @@ import {getRandomInRange, getRandomFractionalNumber, getRandomItem, getRandomIte
 
 // Временые данные
 const TITLES = ['Большая квартира', 'Современная квартира', 'Уютная квартира', 'Квартира у моря'];
-const ADDRESS = ['ул. Изюмская д.45', 'ул. Изюмская д.27', 'ул. Чечерский проезд д.2', 'ул. Янгеля д.7', 'ул. Изюмская д.25/2']
 const TYPE = ['palace', 'flat', 'house', 'bungalow'];
 const CHECKIN = ['12:00', '13:00', '14:00'];
 const CHECKOUT = ['12:00', '13:00', '14:00'];
@@ -20,7 +19,7 @@ const isAd = () => {
 
     offer : {
       title: getRandomItem(TITLES),
-      address: getRandomItem(ADDRESS),
+      address: 'location.x' + ', ' + 'loaction.y',
       price: getRandomInRange(10000, 60000),
       type: getRandomItem(TYPE),
       rooms: getRandomInRange(1, 6),
