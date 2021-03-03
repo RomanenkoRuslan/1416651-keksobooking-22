@@ -1,4 +1,4 @@
-import {getRandomInRange, getRandomFractionalNumber, getRandomItem, getRandomItemNoRepeat} from './util'
+import {getRandomInRange, getRandomFractionalNumber, getRandomItem, getRandomItemNoRepeat} from './util.js'
 
 // Временые данные
 const TITLES = ['Большая квартира', 'Современная квартира', 'Уютная квартира', 'Квартира у моря'];
@@ -45,3 +45,5 @@ const ADS_TOTAL = 10;
 
 // Создаем массив объявлений поблизости
 const ads = new Array(ADS_TOTAL).fill(0).map(() => isAd());
+
+export {ads};
