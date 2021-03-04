@@ -79,8 +79,3 @@ const createAd = function (ad) {
     photos.appendChild(photo);
   }
 };
-
-const sgd = createAd(ads[0])
-
-console.log(mapCanvas.children);
-console.log(ads[0])
