@@ -2,6 +2,7 @@ import {ads} from './data.js';
 import {form, fieldsets, mapFilters, filterItems} from './status-page.js';
 
 //Подключаем карту
+const L = window.L;
 const map = L.map('map-canvas')
   .on('load', () => {
     form.classList.remove('ad-form--disabled');

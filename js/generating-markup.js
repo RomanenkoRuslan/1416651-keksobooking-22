@@ -1,7 +1,3 @@
-import { ads } from './data.js';
-
-const card = document.querySelector('#card').content;
-const popup =  card.querySelector('.popup');
 const mapCanvas = document.querySelector('#map-canvas');
 
 
