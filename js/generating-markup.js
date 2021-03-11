@@ -1,7 +1,3 @@
-import {ads} from './data.js'
-
-const card = document.querySelector('#card').content;
-const popup =  card.querySelector('.popup');
 const mapCanvas = document.querySelector('#map-canvas');
 
 
@@ -71,11 +67,13 @@ const createAd = function (ad) {
   const photos = makeElement('div', 'popup__photos');
   mapCanvas.appendChild(photos);
 
-
   const arrPhotos = ad.offer.photos;
   for (let i = 0; i < arrPhotos.length; i++) {
     const photo = makeElement('img', 'popup__photo');
-    photo.src = arrPhotos[i];
+    photo.classList.add('popup__photo');
+    photo.src = ad.arrPhotos[i];
     photos.appendChild(photo);
   }
 };
+
+export {createAd};
